@@ -1,0 +1,6 @@
+library(devtools)
+install_github('ramnathv/slidify')
+install_github('ramnathv/slidifyLibraries')
+author("mydeck")
+slidify("index.Rmd")
+publish(user = "pjwalshldn", repo = "https://github.com/pjwalshldn/DevelopingDataProducts.git", host = 'github')
